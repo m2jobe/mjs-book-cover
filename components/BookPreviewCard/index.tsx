@@ -26,7 +26,7 @@ const BookPreviewCard: React.FC<BookPreviewCardProps> = ({
   isTransitioning,
   getPositionClasses,
 }) => (
-  <Card className="bg-white dark:bg-black border-4 border-black dark:border-white p-8 flex items-center justify-center min-h-[700px] shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] dark:shadow-[8px_8px_0px_0px_rgba(255,255,255,1)]">
+  <Card className="bg-white dark:bg-black border-4 border-black dark:border-white p-8 flex items-center justify-center min-h-[700px] shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] dark:shadow-[4px_4px_0px_0px_rgba(255,255,255,1)]">
     <div className="perspective-1000 w-full">
       <div
         className={`
