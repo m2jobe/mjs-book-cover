@@ -391,6 +391,7 @@ export default function BookCoverCreator() {
                   {/* Front Cover */}
                   <div
                     className={`
+                      
                       absolute w-full h-full backface-hidden
                       border-8 border-black dark:border-white
                       shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] dark:shadow-[12px_12px_0px_0px_rgba(255,255,255,1)]
@@ -401,7 +402,7 @@ export default function BookCoverCreator() {
                   >
                     <div className="space-y-8 z-10">
                       <h2
-                        className={`text-5xl ${selectedStyle.titleFont} text-black leading-tight`}
+                        className={`text-4xl md:text-5xl ${selectedStyle.titleFont} text-black leading-tight`}
                       >
                         {title}
                       </h2>
