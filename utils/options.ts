@@ -1,4 +1,5 @@
 // utils/options.ts
+
 export const formatOptions = [
   {
     value: "hardcover",
@@ -52,7 +53,7 @@ export const styleOptions = [
   {
     value: "cyber",
     label: "Cyber",
-    gradient: "bg-cyan-400",
+    gradient: "bg-purple-500",
     titleFont: "font-black",
     subtitleFont: "font-bold",
     accent: "border-black",
@@ -76,7 +77,7 @@ export const styleOptions = [
   {
     value: "noise",
     label: "Noise",
-    gradient: "bg-purple-400",
+    gradient: "bg-purple-500",
     titleFont: "font-black",
     subtitleFont: "font-bold",
     accent: "border-black",
